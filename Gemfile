@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', "3.2.8"
 
-ruby "1.9.3"
+ruby "1.9.3", :engine => "1.3.5", :engine_version => "1.6"
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
