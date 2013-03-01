@@ -5,3 +5,16 @@ development:
         target: rails
         execute: true
         apply_during: build_only
+    before_rails:
+      - source: /.cloud66/files/before_rails.sh
+        destination: ~/before_rails.sh
+        target: rails
+        execute: true
+        apply_during: deploy_only
+    last_thing:
+      - source: /.cloud66/files/last_thing.sh
+        destination: ~/last_thing.sh
+        target: rails
+        execute: true
+        apply_during: all
+
