@@ -4,6 +4,13 @@ development:
         destination: ~/first_thing.sh
         target: rails
         execute: true
+      - source: /.cloud66/files/multi_step.txt
+        destination: ~/multi1.txt
+        target: rails
+      - source: /.cloud66/files/first_thing_2.sh
+        destination: ~/first_thing_2.sh
+        target: rails
+        execute: true
     before_rails:
       - source: /.cloud66/files/before_rails.sh
         destination: ~/before_rails.sh
