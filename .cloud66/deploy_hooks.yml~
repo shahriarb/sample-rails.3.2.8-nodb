@@ -1,5 +1,26 @@
 development:
     first_thing:
-      - source: /.cloud66/files/abc.def
-        destination: ~/abc.def
+      - source: /.cloud66/files/first_thing.txt
+        destination: ~/first_thing.txt
         target: rails
+    before_rails:
+      - source: /.cloud66/files/before_rails.txt
+        destination: ~/before_rails.txt
+        target: rails
+    after_rails:
+      - source: /.cloud66/files/after_rails.txt
+        destination: ~/after_rails.txt
+        target: rails
+    before_agent:
+      - source: /.cloud66/files/before_agent.txt
+        destination: ~/before_agent.txt
+        target: rails
+    after_agent:
+      - source: /.cloud66/files/after_agent.txt
+        destination: ~/after_agent.txt
+        target: rails
+    last_thing:
+      - source: /.cloud66/files/last_thing.txt
+        destination: ~/last_thing.txt
+        target: rails
+
