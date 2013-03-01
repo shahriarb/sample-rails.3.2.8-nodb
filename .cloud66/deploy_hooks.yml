@@ -11,6 +11,11 @@ development:
         target: rails
         execute: true
         apply_during: deploy_only
+    after_rails:
+      - source: /.cloud66/files/after_rails.sh
+        destination: ~/after_rails.sh
+        target: rails
+        execute: false
     last_thing:
       - source: /.cloud66/files/last_thing.sh
         destination: ~/last_thing.sh
