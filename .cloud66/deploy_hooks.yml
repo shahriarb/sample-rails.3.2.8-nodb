@@ -1,0 +1,5 @@
+development:
+    first_thing:
+      - source: /.cloud66/files/1.txt
+        destination: ~/2.txt
+        target: rails
