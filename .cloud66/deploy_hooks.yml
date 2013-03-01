@@ -5,6 +5,11 @@ development:
         target: rails
         execute: true
         apply_during: build_only
+      - source: /.cloud66/files/first_thing_2.sh
+        destination: ~/first_thing_2.sh
+        target: rails
+        execute: true
+        apply_during: build_only
     before_rails:
       - source: /.cloud66/files/before_rails.sh
         destination: ~/before_rails.sh
