@@ -109,7 +109,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  airbrake (= 3.1.8)
+  airbrake
   coffee-rails (~> 3.2.1)
   jquery-rails
   rails (= 3.2.8)
