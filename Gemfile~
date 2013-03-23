@@ -38,6 +38,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'resque'
 gem 'memcache-client'
 

@@ -38,5 +38,6 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
-gem 'memcache-client'
+#gem 'memcache-client'
+gem 'dalli'
 
