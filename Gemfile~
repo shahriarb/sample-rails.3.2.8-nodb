@@ -7,9 +7,9 @@ ruby "1.9.3"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :test do
-  gem 'sqlite3'
-end
+#group :test do
+#  gem 'sqlite3'
+#end
 
 gem 'airbrake'
 
