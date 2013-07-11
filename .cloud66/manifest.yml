@@ -1,6 +1,6 @@
 development:
     memcached:
         shared_group: redis
-        memory: 128
-        port: 11212
-        listen_ip: 127.0.0.1	
+        memory: 1000
+        port: hgfh
+        listen_ip: 127.0.0.iu	
