@@ -1,0 +1,7 @@
+development:
+    memcached:
+        shared_group: redis
+        configuration:
+            memory: 128
+            port: 11212
+            listen_ip: 127.0.0.1	
