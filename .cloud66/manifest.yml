@@ -1,3 +1,6 @@
 development:
+    redis:
+        server: 
+            unique_name: redis_srv
     memcached: 
         shared_group: redis
