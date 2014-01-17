@@ -1,3 +1,3 @@
 development:
     memcached: 
-        shared_group: db
+        shared_group: redis
